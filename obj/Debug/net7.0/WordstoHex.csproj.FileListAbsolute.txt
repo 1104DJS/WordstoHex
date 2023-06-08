@@ -1,0 +1,15 @@
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\bin\Debug\net7.0\WordstoHex.exe
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\bin\Debug\net7.0\WordstoHex.deps.json
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\bin\Debug\net7.0\WordstoHex.runtimeconfig.json
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\bin\Debug\net7.0\WordstoHex.dll
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\bin\Debug\net7.0\WordstoHex.pdb
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\WordstoHex.csproj.AssemblyReference.cache
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\WordstoHex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\WordstoHex.AssemblyInfoInputs.cache
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\WordstoHex.AssemblyInfo.cs
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\WordstoHex.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\WordstoHex.dll
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\refint\WordstoHex.dll
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\WordstoHex.pdb
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\WordstoHex.genruntimeconfig.cache
+C:\Users\Daniel Swery\Documents\ProgrammingProjects\Codewars\WordsToHex\obj\Debug\net7.0\ref\WordstoHex.dll
