@@ -1,25 +1,31 @@
-﻿using System;
+Console.WriteLine(w2x("Hello World How Are You My M"));
 
-/* The Program:
- * 
- * The program takes the first three characters of the word and gets their corresponding ASCII Hex Code anything < 3 letters will get 00 to fill the end
- * "Hello, my name is Gary and I like cheese." would return an array of: ['#48656c', '#6d7900', '#6e616d','#697300','#476172','#616e64','#490000','#6c696b','#636865']
- */
+static string w2x(string words){
+    string[] wordStrings = words.Split(' ');
+    string[] _3LetterString = new string[wordStrings.Length];
 
 
-namespace W2H
-{
-	class MainProgram
-	{
-		static void Main()
-		{
-			
-			
-		}
+    for (int i = 0; i < wordStrings.Length; i++) {
+        if (wordStrings[i].Length > 3){
+            _3LetterString[i] = wordStrings[i][..3];
+        }
+        else { _3LetterString[i] = wordStrings[i]; } }
+    Array.Clear(wordStrings);
 
-		static string[] Word2Hex(string s)
-		{
-		
-		}
-	}
+    foreach (string _3LT in _3LetterString) { Console.Write((_3LT) + " "); }
+
+    for (int j = 0; j < _3LetterString.Length; j++) {
+        char[] N1 = _3LetterString[j].ToCharArray();
+        wordStrings[j] = "#";
+        for (int k = 0; k < N1.Length; k++) {
+            if (j != _3LetterString.Length){
+                wordStrings[j] += ((byte)N1[k]).ToString("x2");
+            }
+        }
+
+        if (wordStrings[j].Length == 5){ wordStrings[j] += "00";}
+        else if (wordStrings[j].Length == 3) { wordStrings[j] += "0000";}
+    }
+
+    return string.Join(" ", wordStrings);
 }
