@@ -1,0 +1,15 @@
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/bin/Debug/net7.0/makeUpperCase
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/bin/Debug/net7.0/makeUpperCase.deps.json
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/bin/Debug/net7.0/makeUpperCase.runtimeconfig.json
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/bin/Debug/net7.0/makeUpperCase.dll
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/bin/Debug/net7.0/makeUpperCase.pdb
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/makeUpperCase.csproj.AssemblyReference.cache
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/makeUpperCase.GeneratedMSBuildEditorConfig.editorconfig
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/makeUpperCase.AssemblyInfoInputs.cache
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/makeUpperCase.AssemblyInfo.cs
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/makeUpperCase.csproj.CoreCompileInputs.cache
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/makeUpperCase.dll
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/refint/makeUpperCase.dll
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/makeUpperCase.pdb
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/makeUpperCase.genruntimeconfig.cache
+/home/dswery/Documents/Git/kata/8kyu/makeUpperCase/obj/Debug/net7.0/ref/makeUpperCase.dll
