@@ -1,0 +1,15 @@
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/bin/Debug/net7.0/expandedForm1
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/bin/Debug/net7.0/expandedForm1.deps.json
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/bin/Debug/net7.0/expandedForm1.runtimeconfig.json
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/bin/Debug/net7.0/expandedForm1.dll
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/bin/Debug/net7.0/expandedForm1.pdb
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/expandedForm1.csproj.AssemblyReference.cache
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/expandedForm1.GeneratedMSBuildEditorConfig.editorconfig
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/expandedForm1.AssemblyInfoInputs.cache
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/expandedForm1.AssemblyInfo.cs
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/expandedForm1.csproj.CoreCompileInputs.cache
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/expandedForm1.dll
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/refint/expandedForm1.dll
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/expandedForm1.pdb
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/expandedForm1.genruntimeconfig.cache
+/home/dswery/Documents/Git/kata/6kyu/expandedForm1/obj/Debug/net7.0/ref/expandedForm1.dll
