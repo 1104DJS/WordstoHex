@@ -1,0 +1,15 @@
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/encryptThis.csproj.AssemblyReference.cache
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/encryptThis.GeneratedMSBuildEditorConfig.editorconfig
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/encryptThis.AssemblyInfoInputs.cache
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/encryptThis.AssemblyInfo.cs
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/encryptThis.csproj.CoreCompileInputs.cache
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/bin/Debug/net7.0/encryptThis
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/bin/Debug/net7.0/encryptThis.deps.json
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/bin/Debug/net7.0/encryptThis.runtimeconfig.json
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/bin/Debug/net7.0/encryptThis.dll
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/bin/Debug/net7.0/encryptThis.pdb
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/encryptThis.dll
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/refint/encryptThis.dll
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/encryptThis.pdb
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/encryptThis.genruntimeconfig.cache
+/home/dswery/Documents/Git/kata/6kyu/encryptThis/obj/Debug/net7.0/ref/encryptThis.dll
