@@ -1,17 +1,7 @@
-﻿// Kata.EncryptThis("Hello") == "72olle"
-// Kata.EncryptThis("good") == "103doo"
-// Kata.EncryptThis("hello world") == "104olle 119drlo"
-
-Console.WriteLine(EncryptThis("Hello"));
-Console.WriteLine(EncryptThis("hello world"));
-Console.WriteLine(EncryptThis("good"));
-
-
 static string EncryptThis(string input){
     string[] wordsArr = input.Split(' ');
     string[] strList = new string[input.Length];
 
-    // encrypt
     for (int i = 0; i < wordsArr.Length; i++){
         int firstLetter = wordsArr[i][0];
         string secondLetter = wordsArr[i][^1].ToString();
@@ -31,14 +21,6 @@ static string EncryptThis(string input){
         }
     }
 
-    // decrypt
-    /* scan until you find total num through index
-    *  convert num to char (ASCII)
-    * switch 1st index with last index (char)
-    */
-
-
-    
     return string.Join(" ", strList);
 }
 
