@@ -1,0 +1,15 @@
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/bin/Debug/net7.0/evenFibonacciSum
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/bin/Debug/net7.0/evenFibonacciSum.deps.json
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/bin/Debug/net7.0/evenFibonacciSum.runtimeconfig.json
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/bin/Debug/net7.0/evenFibonacciSum.dll
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/bin/Debug/net7.0/evenFibonacciSum.pdb
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/evenFibonacciSum.csproj.AssemblyReference.cache
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/evenFibonacciSum.GeneratedMSBuildEditorConfig.editorconfig
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/evenFibonacciSum.AssemblyInfoInputs.cache
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/evenFibonacciSum.AssemblyInfo.cs
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/evenFibonacciSum.csproj.CoreCompileInputs.cache
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/evenFibonacciSum.dll
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/refint/evenFibonacciSum.dll
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/evenFibonacciSum.pdb
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/evenFibonacciSum.genruntimeconfig.cache
+/home/dswery/Documents/Git/kata/6kyu/evenFibonacciSum/obj/Debug/net7.0/ref/evenFibonacciSum.dll
