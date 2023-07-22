@@ -12,9 +12,9 @@ static void Expand(string expr){
     string valueOfA = string.Empty;
     string valueOfB = string.Empty;
     string valueOfC = string.Empty;
-    char signOfA = ' ';
+    char signOfA;
     bool? isAnegative = null;
-    bool? propertyOfMainOperator = null; // (T = +)(F = -)
+    bool propertyOfMainOperator; // (T = +)(F = -)
 
     if (expr[1] == '-') { isAnegative = true; exprList.RemoveAt(1); } // find if A is negative
     if (expr.Contains('+')) { propertyOfMainOperator = true; locationOfMainOperator = exprList.IndexOf('+') + 1;} // find if main operator is positive
@@ -30,7 +30,7 @@ static void Expand(string expr){
         if (char.IsNumber(exprList[i])) { valueOfA += exprList[i];}
     }
     // if string is still empty assume A = 1
-    if (valueOfA == string.Empty) {valueOfA += 1;}
+    if (valueOfA?.Length == 0) {valueOfA += 1;}
 
     // gets value of B
     for (int i = locationOfMainOperator; i < locationOfClosedBracket; i++){
@@ -43,10 +43,29 @@ static void Expand(string expr){
     }
 
     // expand binomial expression
-    StringBuilder expandedExpression = new StringBuilder();
-    int a, b, c;
-    if (isAnegative == true) { a = -(int.Parse(valueOfA)); }
-    if (propertyOfMainOperator == false) { b = -(int.Parse(valueOfB)); }
+    StringBuilder expandedExpression = new();
+    int a = 0, b, c;
+    if (isAnegative == true) { a = -(int.Parse(valueOfA!)); }
+    if (!propertyOfMainOperator) { b = -(int.Parse(valueOfB)); }
     else { b = int.Parse(valueOfB); }
     c = int.Parse(valueOfC);
+
+    for (int i = 0; i <= c; i++)
+    {
+        //insert magic here that expands and outputs in correct form somehow please
+        expandedExpression.Append(BinomialCoefficient(c, i) * Math.Pow(a, c - i) * Math.Pow(b, i));
+    }
+
+    Console.WriteLine(expandedExpression.ToString());
+}
+
+// NCR
+static double BinomialCoefficient(int n, int k) {
+    double result = 1;
+
+    for (int i = 1; i <= k; i++) {
+        result *= (n - i + 1) / (double) i;
+    }
+
+    return result;
 }
