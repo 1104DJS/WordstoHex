@@ -36,5 +36,13 @@ static string EncryptThis(string input) //, string input2 = "")
     }
     }
 
+    // decrypt
+    /* scan until you find total num through index
+    *  convert num to char (ASCII)
+    * switch 1st index with last index (char)
+    */
+
+
+    
     return string.Join(" ", strList);
 }
