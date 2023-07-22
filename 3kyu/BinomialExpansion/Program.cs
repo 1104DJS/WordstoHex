@@ -1,31 +1,52 @@
-﻿//KataSolution.Expand("(x+1)^2");      // returns "x^2+2x+1"
-//no negative powers
-//x is left side always
-//
+﻿using System.Text;
+
 Expand("(-x-2)^2");
+// (A+B)^C
 
 static void Expand(string expr){
+    List<char> exprList = expr.ToList<char>();
+    int locationOfMainOperator;
+    int locationOfClosedBracket = expr.IndexOf(')');
+    int locationOfPower = expr.IndexOf('^');
+    int locationOfSignOfA = 0;
+    string valueOfA = string.Empty;
+    string valueOfB = string.Empty;
+    string valueOfC = string.Empty;
+    char signOfA = ' ';
+    bool? isAnegative = null;
+    bool? propertyOfMainOperator = null; // (T = +)(F = -)
 
-    int signMain; // SM 0 = -, SM 1 = +
-    int locationP = 0, locationS = 0;
-    string numA = string.Empty, numB = string.Empty;
-    string rewrite = expr;
+    if (expr[1] == '-') { isAnegative = true; exprList.RemoveAt(1); } // find if A is negative
+    if (expr.Contains('+')) { propertyOfMainOperator = true; locationOfMainOperator = exprList.IndexOf('+') + 1;} // find if main operator is positive
+    else { propertyOfMainOperator = false; locationOfMainOperator = exprList.IndexOf('-') + 1;} // find location of main operator if negative
 
-    locationP = expr.IndexOf('^') + 1;
+    // gets location of sign of A and sign of A
+    for (int i = 1; i < locationOfMainOperator; i++) {
+        if (char.IsLetter(exprList[i])) { signOfA = exprList[i]; locationOfSignOfA = i + 1; }
+    }
 
-    if (expr[1] == '-') { rewrite.Remove(1); } 
-    if (expr.Contains('+')){ locationS = expr.IndexOf('+');}
-    else if (expr.Contains('-')){ locationS = expr.IndexOf('-'); }
+    // gets value of A (if A > 1)
+    for (int i = 1; i < locationOfSignOfA; i++) {
+        if (char.IsNumber(exprList[i])) { valueOfA += exprList[i];}
+    }
+    // if string is still empty assume A = 1
+    if (valueOfA == string.Empty) {valueOfA += 1;}
 
-    for (int i = 1; i < 3; i++) { numA += expr[i]; }
-    for (int j = locationS; j < expr.IndexOf(')'); j++) { numB += expr[j];}
+    // gets value of B
+    for (int i = locationOfMainOperator; i < locationOfClosedBracket; i++){
+        if (char.IsNumber(exprList[i])) { valueOfB += exprList[i]; }
+    }
 
-    Console.WriteLine(numA);
-    Console.WriteLine(locationS); Console.WriteLine(expr.IndexOf("+"));
-    Console.WriteLine(expr[locationP] + "yes" + expr[locationS]);
-    
+    // gets value of power 
+    for (int i = locationOfPower; i < expr.Length - 1; i++){
+        if (char.IsNumber(exprList[i])) { valueOfC += exprList[i];}
+    }
 
-    
-
-
+    // expand binomial expression
+    StringBuilder expandedExpression = new StringBuilder();
+    int a, b, c;
+    if (isAnegative == true) { a = -(int.Parse(valueOfA)); }
+    if (propertyOfMainOperator == false) { b = -(int.Parse(valueOfB)); }
+    else { b = int.Parse(valueOfB); }
+    c = int.Parse(valueOfC);
 }
