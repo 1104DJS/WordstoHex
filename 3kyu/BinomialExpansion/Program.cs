@@ -4,7 +4,7 @@ Expand("(-x-2)^2");
 // (A+B)^C
 
 static void Expand(string expr){
-    List<char> exprList = expr.ToList<char>();
+    List<char> exprList = expr.ToList();
     int locationOfMainOperator;
     int locationOfClosedBracket = expr.IndexOf(')');
     int locationOfPower = expr.IndexOf('^');
