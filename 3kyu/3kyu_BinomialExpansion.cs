@@ -1,5 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Linq;
+using System.Text;
 using System.Numerics;
+using System.Collections.Generic;
 
 //Console.WriteLine(Expand("(-x-2)^2"));
 //Console.WriteLine(Expand("(x-2)^2"));
