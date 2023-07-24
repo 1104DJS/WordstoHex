@@ -1,4 +1,6 @@
-﻿static string Bmi(double weight, double height) {
+﻿using System;
+
+static string Bmi(double weight, double height) {
     double bmi = weight / (height * height);
     if (bmi <= 18.5) return "Underweight";
     if (bmi <= 25.0) return "Normal";
