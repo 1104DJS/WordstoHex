@@ -1,15 +1,16 @@
 using System;
 using System.Linq;
 using System.Text;
+using System.Collections.Generic;
 
 //Console.WriteLine(Decode(".... . -.--    .--- ..- -.. ."));
 Console.WriteLine(Decode("- .... .   .--- --- -...   .--. --- .-. .-.. ."));
 Console.WriteLine(Decode("... --- ... -.-.--   - .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-   .--- ..- -- .--. ...   --- ...- . .-.   - .... .   .-.. .- --.. -.--   -.. --- --. .-.-.-   "));
 
-static string Decode(string morseCode)
-{
-    string[] strList = morseCode.Split(' ');
-    string finalString = "";
+    static string Decode(string morseCode)
+	{
+		string[] strList = morseCode.Split(' ');
+        string finalString = "";
 
     for (int i = 0; i < strList.Length; i++)
     {
@@ -19,21 +20,12 @@ static string Decode(string morseCode)
         }
         else if (i > 0 && strList[i-1] != string.Empty)
         {
-            if (i > 0 && strList[i-1] != string.Empty && i != strList.Length - 1)
-            {
-                finalString.Append(' ');
-            }
-
-            if (i != strList.Length - 1){
-                if (i == strList.Length - 2 && strList[strList.Length - 1] == string.Empty) { return finalString; }
-                finalString += ' ';
-
-            }
+            if (i != strList.Length - 1){ finalString += ' ';}
         }
     }
 
-    return finalString;
-}
+    return finalString.TrimEnd();
+	}
 
 
 static char Get(string input)
