@@ -1,0 +1,1 @@
+# Codewars kata solutions
